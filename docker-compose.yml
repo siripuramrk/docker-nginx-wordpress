@@ -46,3 +46,12 @@ services:
     networks:
       - app-network
 
+...
+volumes:
+  certbot-etc:
+  wordpress:
+  dbdata:
+
+networks:
+  app-network:
+    driver: bridge
